@@ -16,10 +16,12 @@ mkdir -p "$PACKAGE_DIR"
 cat > "$PACKAGE_DIR/Solution.java" <<EOL
 package $PROBLEM_NAME;
 
-public class Solution {
-    public static void main(String[] args) {
+/*
 
-    }
+*/
+
+public class Solution {
+
 }
 EOL
 
