@@ -41,7 +41,7 @@ class Solution {
 ```
 Com isso, o algoritmo tem complexidade `O(m + n)` e espaço `O(m + n)`. No entanto, não fiquei satisfeito com a alocação de um novo array e a cópia de volta para o array original. Então, tentei encontrar uma forma de fazer isso sem alocar um novo array.
 
-## Solução Otimizada
+## Solução Final
 
 A forma que encontrei foi começar a percorrer os arrays de trás para frente, assim posso colocar os elementos ordenados no final do array original sem precisar alocar um novo array. O código ficou assim:
 

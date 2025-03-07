@@ -39,7 +39,7 @@ class Solution {
 ```
 Thus, the algorithm has a complexity of `O(m + n)` and space `O(m + n)`. However, I was not satisfied with allocating a new array and copying it back to the original array. So, I tried to find a way to do this without allocating a new array.
 
-## Optimized Solution
+## Final Solution
 
 The way I found was to start traversing the arrays from back to front, so I can place the sorted elements at the end of the original array without needing to allocate a new array. The code was as follows:
 
